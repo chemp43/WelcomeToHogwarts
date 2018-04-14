@@ -7,4 +7,8 @@
     <string name="txtSortingClassTitle">This screen will display an image of the class you\'ve been assigned to (if quiz is chosen), or after shake input will transition to this screen.</string>
     <string name="btnSortClassContinue">Find your patronus!</string>
     <string name="txtSortClassBtn">Clicking this button will change the screen to the patronus screen</string>
+    <string name="txtPatronusTitle">This will display which patronus you have chosen or randomly assigned.</string>
+    <string name="btnDistanceTitle">Distance from Platform 9 and 3/4</string>
+    <string name="txtDistanceBtn">Clicking this button will bring you to the screen which takes your location and how far you are from Platform 9 and 3/4</string>
+    <string name="txtDistanceTitle">This screen will use device\'s location to calculate and display how far away the user is from Platform 9 and 3/4 (King Cross Station, London, UK)</string>
 </resources>
