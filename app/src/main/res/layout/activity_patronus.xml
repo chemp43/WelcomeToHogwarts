@@ -13,10 +13,9 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp"
-        android:text="TextView"
+        android:text="@string/txtPatronusTitle"
         android:textAlignment="center"
-        android:textSize="18sp"
-        tools:text="@string/txtPatronusTitle" />
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/btnDistance"
@@ -25,8 +24,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="65dp"
-        android:text="Button"
-        tools:text="@string/btnDistanceTitle" />
+        android:text="@string/btnDistanceTitle" />
 
     <TextView
         android:id="@+id/txtDistanceBtn"
@@ -34,7 +32,6 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/btnDistance"
         android:layout_centerHorizontal="true"
-        android:text="TextView"
-        android:textAlignment="center"
-        tools:text="@string/txtDistanceBtn" />
+        android:text="@string/txtDistanceBtn"
+        android:textAlignment="center" />
 </RelativeLayout>

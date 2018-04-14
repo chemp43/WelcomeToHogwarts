@@ -13,10 +13,9 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="92dp"
-        android:text="TextView"
+        android:text="@string/txtSortingTitle"
         android:textAlignment="center"
-        android:textSize="18sp"
-        tools:text="@string/txtSortingTitle" />
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/btnSortingSubmit"
@@ -25,8 +24,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="64dp"
-        android:text="Button"
-        tools:text="@string/btnSortingSubmit" />
+        android:text="@string/btnSortingSubmit" />
 
     <TextView
         android:id="@+id/txtSortingBtn"
@@ -35,8 +33,7 @@
         android:layout_above="@+id/btnSortingSubmit"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:text="TextView"
-        android:textAlignment="center"
-        tools:text="@string/txtSortingBtn" />
+        android:text="@string/txtSortingBtn"
+        android:textAlignment="center" />
 
 </RelativeLayout>

@@ -14,9 +14,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="58dp"
-        android:text="TextView"
+        android:text="@string/txtDistanceTitle"
         android:textAlignment="center"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="80dp"
-        tools:text="@string/txtDistanceTitle" />
+        tools:layout_editor_absoluteY="80dp" />
 </RelativeLayout>
