@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Welcome To Hogwarts</string>
-    <string name="txtSplashTitle" translatable="false">This is the splash screen which will play a sound file and display an image for 7 seconds before moving on to the next screen.</string>
+    <string name="txtSplashTitle" translatable="false">This is the splash screen which will play a sound file and display an image for 7 seconds before moving on to the next screen. \n \n Please wait 7 seconds.</string>
     <string name="txtSortingTitle">This screen will contain a quiz (or a shake animation mechanic) to (randomly) display which class you\'ve been placed into.  An image of the Harry Potter sorting hat will be either a static image or background to this screen.</string>
     <string name="btnSortingSubmit">Submit your class questionaire</string>
     <string name="txtSortingBtn">Clicking this button will submit your quiz (if chosen), calculate the quiz, and transitions to the next screen.</string>
