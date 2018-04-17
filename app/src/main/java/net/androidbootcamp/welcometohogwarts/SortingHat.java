@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class SortingHat extends AppCompatActivity {
-    Button submitBtn;
+    Button submitBtn; //hufflepuff rulzzz
 
 
     @Override
