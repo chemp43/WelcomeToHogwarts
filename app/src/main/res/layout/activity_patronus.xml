@@ -4,18 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/smoke"
     tools:context="net.androidbootcamp.welcometohogwarts.Patronus">
 
     <TextView
         android:id="@+id/txtPatronusTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="12dp"
         android:text="@string/txtPatronusTitle"
         android:textAlignment="center"
-        android:textSize="18sp" />
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/image_patronus"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/txtPatronusTitle"
+        android:layout_centerHorizontal="true"
+
+        android:src="@drawable/question" />
 
     <Button
         android:id="@+id/btnDistance"
@@ -23,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="65dp"
+        android:layout_marginBottom="28dp"
         android:text="@string/btnDistanceTitle" />
 
     <TextView
@@ -33,5 +45,6 @@
         android:layout_above="@+id/btnDistance"
         android:layout_centerHorizontal="true"
         android:text="@string/txtDistanceBtn"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_bright" />
 </RelativeLayout>
