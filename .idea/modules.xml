@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/WelcomeToHogwarts.iml" filepath="$PROJECT_DIR$/.idea/WelcomeToHogwarts.iml" />
-      <module fileurl="file://C:\WelcomeToHogwarts\WelcomeToHogwarts.iml" filepath="C:\WelcomeToHogwarts\WelcomeToHogwarts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WelcomeToHogwarts.iml" filepath="$PROJECT_DIR$/WelcomeToHogwarts.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\WelcomeToHogwarts\app\app.iml" filepath="C:\WelcomeToHogwarts\app\app.iml" />
     </modules>
   </component>
 </project>
