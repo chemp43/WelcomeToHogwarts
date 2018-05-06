@@ -1,17 +1,13 @@
 package net.androidbootcamp.welcometohogwarts;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
+import android.widget.Button;
 
-import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
-import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.MapView;
-import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
@@ -21,6 +17,8 @@ import com.google.android.gms.maps.model.MarkerOptions;
  */
 public class Distance extends AppCompatActivity
         implements OnMapReadyCallback {
+
+    Button backSorting;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +30,17 @@ public class Distance extends AppCompatActivity
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+        //Back to the Sorting Hat button
+        backSorting=(Button)findViewById(R.id.backSorting);
+        backSorting.setOnClickListener(btnBackSorting);
     }
+
+    Button.OnClickListener btnBackSorting = new Button.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            startActivity(new Intent(Distance.this, SortingHat.class));
+        }
+    };
 
     /**
      * Manipulates the map when it's available.
