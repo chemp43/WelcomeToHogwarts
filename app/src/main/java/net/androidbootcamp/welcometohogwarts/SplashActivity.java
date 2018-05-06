@@ -37,3 +37,4 @@ public class SplashActivity extends AppCompatActivity {
         finish();
     }
 }
+//change so i can commit again
