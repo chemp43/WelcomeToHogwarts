@@ -11,7 +11,7 @@
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="403dp"
+        android:layout_height="421dp"
         tools:context="com.example.mapwithmarker.MapsMarkerActivity" />
 
     <Button
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="33dp"
+        android:layout_marginBottom="18dp"
         android:text="@string/btnBackSorting" />
 
 </RelativeLayout>

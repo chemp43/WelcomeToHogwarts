@@ -55,7 +55,7 @@ public class Distance extends AppCompatActivity
         // and move the map's camera to the same location.
         LatLng sydney = new LatLng(51.5316, 0.1244);
         googleMap.addMarker(new MarkerOptions().position(sydney)
-                .title("Platform 9 and three-quarters"));
+                .title("Platform 9 and Three-Quarters (King Cross Station)"));
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }
