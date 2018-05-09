@@ -14,7 +14,7 @@ public class SortingHat extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sorting_hat);
-        submitBtn=(Button)findViewById(R.id.btnSortingSubmit);
+        /*submitBtn=(Button)findViewById(R.id.btnSortingSubmit);
         submitBtn.setOnClickListener(btnSortingSubmit);
     }
     Button.OnClickListener btnSortingSubmit = new Button.OnClickListener() {
@@ -24,6 +24,7 @@ public class SortingHat extends AppCompatActivity {
             startActivity(new Intent(SortingHat.this,SortingClass.class));
 
         }
-    };
+    };*/
 
+    }
 }
