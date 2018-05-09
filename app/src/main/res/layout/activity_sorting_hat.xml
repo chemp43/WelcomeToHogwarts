@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/img"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="net.androidbootcamp.welcometohogwarts.SortingHat">
@@ -10,30 +11,55 @@
         android:id="@+id/txtSortingTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="92dp"
         android:text="@string/txtSortingTitle"
         android:textAlignment="center"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:layout_alignParentLeft="true" />
 
-    <Button
-        android:id="@+id/btnSortingSubmit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+
+    <ImageView
+        android:id="@+id/imgSortingHat"
+        android:layout_width="298dp"
+        android:layout_height="222dp"
+        android:layout_below="@+id/txtSortingTitle"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="64dp"
-        android:text="@string/btnSortingSubmit" />
+        android:contentDescription="@string/sortinghat"
+        app:srcCompat="@drawable/sortinghat" />
 
-    <TextView
-        android:id="@+id/txtSortingBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/btnSortingSubmit"
-        android:layout_alignParentLeft="true"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:text="@string/txtSortingBtn"
-        android:textAlignment="center" />
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+        <Button
+            android:id="@+id/btnGrif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnGrif" />
+
+        <Button
+            android:id="@+id/btnSly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSly" />
+
+        <Button
+            android:id="@+id/btnRaven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnRaven" />
+
+        <Button
+            android:id="@+id/btnHuff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnHuff" />
+    </LinearLayout>
+
 
 </RelativeLayout>

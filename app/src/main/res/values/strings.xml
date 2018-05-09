@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Welcome To Hogwarts</string>
     <string name="txtSplashTitle">Welcome to Hogwarts</string>
-    <string name="txtSortingTitle">This screen will contain a quiz (or a shake animation mechanic) to (randomly) display which class you\'ve been placed into.  An image of the Harry Potter sorting hat will be either a static image or background to this screen.</string>
+    <string name="txtSortingTitle">The Sorting Hat will determine which house you, belong in.  Click the button that best matches your personality.</string>
     <string name="btnSortingSubmit">Submit your class questionaire</string>
     <string name="txtSortingBtn">Clicking this button will submit your quiz (if chosen), calculate the quiz, and transitions to the next screen.</string>
     <string name="txtSortingClassTitle">This screen will display an image of the class you\'ve been assigned to (if quiz is chosen), or after shake input will transition to this screen.</string>
@@ -25,6 +25,10 @@
     <string name="question">Mark img</string>
     <string name="google_maps_key">AIzaSyBzpXdVQafdL51iHu6_3rYXNmu8XfsQWfc</string>
     <string name="btnBackSorting">Go back to the Sorting Hat</string>
+    <string name="btnGrif">Brave and Chivalrous</string>
+    <string name="btnSly">Ambitious and Cunning</string>
+    <string name="btnRaven">Intelligent and Witty</string>
+    <string name="btnHuff">Loyal and Patient</string>
 
 
 </resources>
