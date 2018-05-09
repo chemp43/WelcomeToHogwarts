@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WelcomeToHogwarts.iml" filepath="$PROJECT_DIR$/WelcomeToHogwarts.iml" />
+      <module fileurl="file://C:\Users\Joanna\AndroidStudioProjects\WelcomeToHogwarts\WelcomeToHogwarts.iml" filepath="C:\Users\Joanna\AndroidStudioProjects\WelcomeToHogwarts\WelcomeToHogwarts.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

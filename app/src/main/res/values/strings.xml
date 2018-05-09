@@ -29,6 +29,8 @@
     <string name="btnSly">Ambitious and Cunning</string>
     <string name="btnRaven">Intelligent and Witty</string>
     <string name="btnHuff">Loyal and Patient</string>
+    <string name="candlels">Candel background</string>
+    <string name="housebkg">House background</string>
 
 
 </resources>

@@ -5,18 +5,19 @@
     android:id="@+id/img"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/candels"
     tools:context="net.androidbootcamp.welcometohogwarts.SortingHat">
 
     <TextView
         android:id="@+id/txtSortingTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:text="@string/txtSortingTitle"
         android:textAlignment="center"
-        android:textSize="18sp"
-        android:layout_alignParentLeft="true" />
+        android:textSize="18sp" />
 
 
     <ImageView
@@ -32,9 +33,9 @@
         android:layout_width="match_parent"
         android:layout_height="216dp"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:orientation="vertical"
-        android:layout_alignParentLeft="true">
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/btnGrif"
