@@ -4,7 +4,7 @@
     <string name="txtSortingTitle">The Sorting Hat will determine which house you, belong in.  Click the button that best matches your personality.</string>
     <string name="btnSortingSubmit">Submit your class questionaire</string>
     <string name="txtSortingBtn">Clicking this button will submit your quiz (if chosen), calculate the quiz, and transitions to the next screen.</string>
-    <string name="txtSortingClassTitle">This screen will display an image of the class you\'ve been assigned to (if quiz is chosen), or after shake input will transition to this screen.</string>
+    <string name="txtSortingClassTitle">Welcome to your new Hogwarts House.</string>
     <string name="btnSortClassContinue">Find your patronus!</string>
     <string name="txtSortClassBtn">Clicking this button will change the screen to the patronus screen</string>
     <string name="txtPatronusTitle">Tap the screen to summon your Patronus</string>
@@ -29,6 +29,7 @@
     <string name="btnSly">Ambitious and Cunning</string>
     <string name="btnRaven">Intelligent and Witty</string>
     <string name="btnHuff">Loyal and Patient</string>
+    <string name="sortingClass">The class you were sorted into</string>
 
 
 </resources>
