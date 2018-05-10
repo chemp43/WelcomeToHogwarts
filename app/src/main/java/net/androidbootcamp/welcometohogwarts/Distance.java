@@ -23,10 +23,7 @@ public class Distance extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // Retrieve the content view that renders the map.
         setContentView(R.layout.activity_distance);
-        // Get the SupportMapFragment and request notification
-        // when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
@@ -51,8 +48,7 @@ public class Distance extends AppCompatActivity
      */
     @Override
     public void onMapReady(GoogleMap googleMap) {
-        // Add a marker in Sydney, Australia,
-        // and move the map's camera to the same location.
+
         LatLng sydney = new LatLng(51.5316, 0.1244);
         googleMap.addMarker(new MarkerOptions().position(sydney)
                 .title("Platform 9 and Three-Quarters (King Cross Station)"));
