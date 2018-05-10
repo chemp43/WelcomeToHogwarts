@@ -5,7 +5,7 @@
     android:id="@+id/img"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/candels"
+    android:background="@drawable/candles"
     tools:context="net.androidbootcamp.welcometohogwarts.SortingHat">
 
     <TextView
@@ -17,6 +17,7 @@
         android:layout_alignParentTop="true"
         android:text="@string/txtSortingTitle"
         android:textAlignment="center"
+        android:textColor="@android:color/background_light"
         android:textSize="18sp" />
 
 

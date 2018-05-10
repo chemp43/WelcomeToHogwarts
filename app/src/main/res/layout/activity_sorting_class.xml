@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/housbkg"
+    android:background="@drawable/housebkg"
     tools:context="net.androidbootcamp.welcometohogwarts.SortingClass">
 
     <TextView
@@ -17,6 +17,7 @@
         android:layout_marginTop="13dp"
         android:text="@string/txtSortingClassTitle"
         android:textAlignment="center"
+        android:textColor="@android:color/background_light"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="45dp" />
